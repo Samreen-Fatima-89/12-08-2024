@@ -1,0 +1,26 @@
+* {
+  font-family: poppins !important;
+}
+
+.navbar-brand > span {
+  color: rgb(89, 171, 110);
+  font-size: 50px;
+  font-weight: 100px;
+}
+
+.socialMediaIconsNavbar {
+  gap: 10px !important;
+}
+
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav,
+  .socialMediaIconsNavbar {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
